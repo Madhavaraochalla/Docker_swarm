@@ -1,0 +1,13 @@
+---
+version: '3.8'
+services:
+   myjen:
+      image: tomcat
+      ports:
+         - 9988:8080
+      deploy:
+         replicas: 2
+         placement:
+           constraints:
+              - node.hostname == worker1
+              - node.hostname == worker2

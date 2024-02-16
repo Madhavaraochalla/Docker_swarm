@@ -1,0 +1,16 @@
+---
+version: '3.8'
+services:
+   mydb:
+      image: mysql:5
+      environment: 
+         MYSQL_ROOT_PASSWORD: madhav
+      deploy:
+         replicas: 2
+   myword:
+      image: wordpress
+      ports: 
+         - 8080:80
+      deploy:
+         replicas: 2
+...
