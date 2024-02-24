@@ -1,1 +1,3 @@
-Creating 
+FILE NAME                   EXPLANATION 
+expectmanager.yml     =    Creating Jenkins container in all nodes expect on manager
+only_on_workers.yml   =
