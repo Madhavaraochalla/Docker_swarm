@@ -2,3 +2,6 @@ FILE NAME                   EXPLANATION
 expectmanager.yml     =    Creating Jenkins container with 2 replicas in all nodes expect on manager
 only_on_workers.yml   =    Creating tomcat containers with 2vreplics on only on worker 
 stack.yml             =    creating container with postger link with mysql database 
+                           postger container with 2 replicas mysql with 2 replicas
+stack1.yml            =
+upper_limit.yml       =
