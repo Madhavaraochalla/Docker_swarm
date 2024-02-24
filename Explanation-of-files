@@ -1,3 +1,3 @@
 FILE NAME                   EXPLANATION 
-expectmanager.yml     =    Creating Jenkins container in all nodes expect on manager
-only_on_workers.yml   =
+expectmanager.yml     =    Creating Jenkins container with 2 replicas in all nodes expect on manager
+only_on_workers.yml   =    Creating tomcat containers with replics on only on worker 
